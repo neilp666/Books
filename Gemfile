@@ -13,6 +13,7 @@ gem 'turbolinks'
 gem 'simple_form'
 gem 'devise'
 gem 'cancan'
+gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
