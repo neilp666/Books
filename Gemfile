@@ -21,6 +21,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'friendly_id'
 gem 'stripe'
+gem 'aasm'
 
 
 
