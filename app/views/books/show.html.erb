@@ -9,10 +9,9 @@
   <p><%= @book.description %></p>
   <h4 class="text-center">$<%= @book.price.to_f / 100 %></h4>
 
-  <%= if current_user %>
+  <% if current_user %>
 
   <%= form_tag buy_path(slug: @book.slug) do %>
-
 
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
