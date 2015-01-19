@@ -19,7 +19,7 @@ class TransactionsController < ApplicationController
 	end
 
 	def pickup 
-		@sales = Sale.find_by!(guid: params[:guid])
+		@sale = Sale.find_by!(guid: params[:guid])
 		@book = @sale.book
 	end
 end
